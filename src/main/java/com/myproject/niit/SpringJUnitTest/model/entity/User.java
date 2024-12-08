@@ -15,7 +15,10 @@ public class User {
     private String userId;
     private String firstName;
     private String lastName;
+
+    @Temporal(TemporalType.DATE)
     private Date dateOfBirth;
+
     private String email;
     private String password;
     private boolean enabled;
